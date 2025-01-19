@@ -6,7 +6,7 @@ export type Priority = {
 };
 
 export type ColumnStatusTask = {
-  status: 'Pendiente' | 'En Proceso' | 'Terminada';
+  status: 'Pendiente' | 'En Proceso' | 'Completado';
 };
 
 export type Tag = {
