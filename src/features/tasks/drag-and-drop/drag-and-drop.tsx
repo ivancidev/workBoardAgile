@@ -16,15 +16,15 @@ export const DragAndDrop = () => {
   });
   return (
     <main className="flex gap-3 justify-center">
-      <div className="flex flex-col items-center bg-gray-100 p-4 rounded-lg">
+      <div className="flex flex-col items-center p-4 ">
         <h2 className="mt-2 text-lg font-semibold">Todo</h2>
         <ColumnTasks tasks={todos} listRef={todoList} />
       </div>
-      <div className="flex flex-col items-center bg-gray-100 p-4 rounded-lg">
+      <div className="flex flex-col items-center p-4">
         <h2 className="mt-2 text-lg font-semibold">In Progress</h2>
         <ColumnTasks tasks={inProgress} listRef={inProgressList} />
       </div>
-      <div className="flex flex-col items-center bg-gray-100 p-4 rounded-lg">
+      <div className="flex flex-col items-center p-4">
         <h2 className="mt-2 text-lg font-semibold">Done</h2>
         <ColumnTasks tasks={dones} listRef={doneList} />
       </div>
