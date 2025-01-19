@@ -4,7 +4,7 @@ export const users: User[] = [
   {
     id: 1,
     name: 'Juan Pérez',
-    avatarUrl: 'https://example.com/avatars/juan.jpg',
+    avatarUrl: 'https://unavatar.io/github/mdo',
     email: 'juan.perez@example.com',
     password: 'hashedpassword123',
     role: 'admin',
@@ -14,12 +14,32 @@ export const users: User[] = [
   {
     id: 2,
     name: 'Ana Gómez',
-    avatarUrl: 'https://example.com/avatars/ana.jpg',
+    avatarUrl: 'https://unavatar.io/github/dimitri',
     email: 'ana.gomez@example.com',
     password: 'hashedpassword456',
     role: 'user',
     createdAt: '2023-03-10T10:00:00Z',
     updatedAt: '2023-12-15T10:00:00Z',
+  },
+  {
+    id: 3,
+    name: 'Carlos López',
+    avatarUrl: 'https://unavatar.io/github/marcus',
+    email: 'carlos.lopez@gmail.com',
+    password: 'hashedpassword789',
+    role: 'user',
+    createdAt: '2023-04-20T12:00:00Z',
+    updatedAt: '2023-12-10T12:00:00Z',
+  },
+  {
+    id: 4,
+    name: 'María Rodríguez',
+    avatarUrl: 'https://unavatar.io/github/luke',
+    email: 'maria@gmail.com',
+    password: 'hashedpassword101112',
+    role: 'user',
+    createdAt: '2023-05-25T14:00:00Z',
+    updatedAt: '2023-12-05T14:00:00Z',
   },
 ];
 
@@ -32,7 +52,7 @@ export const todoTasks: Task[] = [
       status: 'Alta',
     },
     color: '#FF5733',
-    date: '2023-10-01',
+    date: '2025-01-19',
     tags: [
       {
         id: 1,
